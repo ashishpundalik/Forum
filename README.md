@@ -7,7 +7,6 @@ Clone the repo https://github.com/ashishpundalik/forum
 
 Install the dependencies and devDependencies.
 ```sh
-$ cd forum
 $ npm install
 ```
 
