@@ -4,7 +4,9 @@
   "description": "Sample question and answer app to get started with React + Redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dashboard -t 'react redux starter app' -- webpack-dev-server --colors --no-info",
+    "build": "rm -rf ./build && NODE_ENV=\"production\" webpack"
   },
   "repository": {
     "type": "git",
